@@ -2,13 +2,12 @@ package com.dokany.java.constants;
 
 import com.dokany.java.DokanyUtils;
 import com.dokany.java.structure.EnumIntegerSet;
-
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
 
-@FieldDefaults(makeFinal = true, level = AccessLevel.PRIVATE)
+@FieldDefaults(makeFinal = true, level = AccessLevel.PUBLIC)
 @RequiredArgsConstructor
 public enum MountOption implements EnumInteger {
 
